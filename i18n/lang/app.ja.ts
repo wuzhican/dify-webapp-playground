@@ -28,6 +28,24 @@ const translation = {
     waitForResponse:
       '前のメッセージの応答が完了するまでお待ちください。',
   },
+  knowledgeSelector: {
+    placeholder: 'ナレッジベースを選択...',
+    searchPlaceholder: 'ナレッジベースを検索',
+    noResults: '一致するナレッジベースが見つかりません',
+    noAvailable: '利用可能なナレッジベースがありません',
+    selected: '選択済み',
+    remove: '削除',
+    more: 'その他',
+    triggerHint: '@を入力してナレッジベースを選択',
+    inputPlaceholder: 'ここにメッセージを入力...',
+    buttonTooltip: 'ナレッジベースを選択',
+    navigationTip: '↑↓で移動、Enterで選択、Escで閉じる',
+    type: {
+      document: 'ドキュメント',
+      qa: 'Q&A',
+      manual: 'マニュアル',
+    },
+  },
   variableTable: {
     optional: '任意',
   },

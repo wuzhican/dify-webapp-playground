@@ -28,6 +28,24 @@ const translation = {
     waitForResponse:
       'Por favor espere a que la respuesta al mensaje anterior se complete.',
   },
+  knowledgeSelector: {
+    placeholder: 'Seleccionar base de conocimiento...',
+    searchPlaceholder: 'Buscar bases de conocimiento',
+    noResults: 'No se encontraron bases de conocimiento coincidentes',
+    noAvailable: 'No hay bases de conocimiento disponibles',
+    selected: 'Seleccionado',
+    remove: 'Eliminar',
+    more: 'más',
+    triggerHint: 'Escriba @ para seleccionar base de conocimiento',
+    inputPlaceholder: 'Escriba su mensaje aquí...',
+    buttonTooltip: 'Seleccionar base de conocimiento',
+    navigationTip: 'Use ↑↓ para navegar, Enter para seleccionar, Esc para cerrar',
+    type: {
+      document: 'Documento',
+      qa: 'P&R',
+      manual: 'Manual',
+    },
+  },
 }
 
 export default translation

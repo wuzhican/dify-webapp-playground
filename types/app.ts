@@ -224,3 +224,14 @@ export enum CodeLanguage {
   javascript = 'javascript',
   json = 'json',
 }
+
+// Knowledge Base Types
+export type KnowledgeItem = {
+  id: string
+  name: string
+  description?: string
+  color?: string // Knowledge base identifier color
+  icon?: string // Icon type
+  type?: 'document' | 'qa' | 'manual' // Knowledge base type
+  status?: 'active' | 'inactive' // Status
+}

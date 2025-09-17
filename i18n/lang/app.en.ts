@@ -28,6 +28,24 @@ const translation = {
     waitForResponse:
       'Please wait for the response to the previous message to complete.',
   },
+  knowledgeSelector: {
+    placeholder: 'Select knowledge base...',
+    searchPlaceholder: 'Search knowledge bases',
+    noResults: 'No matching knowledge bases found',
+    noAvailable: 'No available knowledge bases',
+    selected: 'Selected',
+    remove: 'Remove',
+    more: 'more',
+    triggerHint: 'Type @ to select knowledge base',
+    inputPlaceholder: 'Type your message here...',
+    buttonTooltip: 'Select knowledge base',
+    navigationTip: 'Use ↑↓ to navigate, Enter to select, Esc to close',
+    type: {
+      document: 'Document',
+      qa: 'Q&A',
+      manual: 'Manual',
+    },
+  },
   variableTable: {
     optional: 'Optional',
   },

@@ -28,6 +28,24 @@ const translation = {
     waitForResponse:
       'Vui lòng đợi phản hồi từ tin nhắn trước khi gửi tin nhắn mới.',
   },
+  knowledgeSelector: {
+    placeholder: 'Chọn cơ sở kiến thức...',
+    searchPlaceholder: 'Tìm kiếm cơ sở kiến thức',
+    noResults: 'Không tìm thấy cơ sở kiến thức nào phù hợp',
+    noAvailable: 'Không có cơ sở kiến thức nào',
+    selected: 'Đã chọn',
+    remove: 'Xóa',
+    more: 'thêm',
+    triggerHint: 'Gõ @ để chọn cơ sở kiến thức',
+    inputPlaceholder: 'Nhập tin nhắn của bạn tại đây...',
+    buttonTooltip: 'Chọn cơ sở kiến thức',
+    navigationTip: 'Dùng ↑↓ để di chuyển, Enter để chọn, Esc để đóng',
+    type: {
+      document: 'Tài liệu',
+      qa: 'Hỏi Đáp',
+      manual: 'Hướng dẫn',
+    },
+  },
   variableTable: {
     optional: 'Tùy chọn',
   },

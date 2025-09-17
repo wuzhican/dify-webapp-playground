@@ -23,6 +23,7 @@ import AppUnavailable from '@/app/components/app-unavailable'
 import { API_KEY, APP_ID, APP_INFO, isShowPrompt, promptTemplate } from '@/config'
 import type { Annotation as AnnotationType } from '@/types/log'
 import { addFileInfos, sortAgentSorts } from '@/utils/tools'
+import { knowledgeConfig } from './chat/mock-knowledge-data'
 
 export type IMainProps = {
   params: any
@@ -53,7 +54,7 @@ const Main: FC<IMainProps> = () => {
 
   useEffect(() => {
     if (APP_INFO?.title)
-      document.title = `${APP_INFO.title} - Powered by Dify`
+      document.title = `${APP_INFO.title}`
   }, [APP_INFO?.title])
 
   // onData change thought (the produce obj). https://github.com/immerjs/immer/issues/576
@@ -713,6 +714,7 @@ const Main: FC<IMainProps> = () => {
                     checkCanSend={checkCanSend}
                     visionConfig={visionConfig}
                     fileConfig={fileConfig}
+                    knowledgeConfig={knowledgeConfig}
                   />
                 </div>
               </div>)
